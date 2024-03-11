@@ -143,3 +143,15 @@ for the `Enter name of work folder` prompt press Enter to accept the default`
 
 1. in teminal in vscode run `git status`, then git `add .` then `git commmit -m "deploy to ec2"`
 	then `git push` OK
+
+2. check our actions has been successful and complete. Alo check in the Ec2 instance browser 
+	terminal that we can see the message:  Job Deplot created with result: Succeeded
+
+# Add CUSTOM TCP security group in our Instance
+
+1. go to the ec2 instance in the AWS console and create a Custom TCP security group for `ip4 anywhere` with
+	`port 3000`
+
+2. now in AWS console, copy our Ec2 instances Public IPv4 address and paste in the browser, and append our port 3000
+	to it.
+
