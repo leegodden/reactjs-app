@@ -139,4 +139,7 @@ for the `Enter name of work folder` prompt press Enter to accept the default`
 
 16. in Github click `Actions` and then `Runners` to see the newly created Runner
 
+# Commit our changes and deploy to our instance
 
+1. in teminal in vscode run `git status`, then git `add .` then `git commmit -m "deploy to ec2"`
+	then `git push` OK
